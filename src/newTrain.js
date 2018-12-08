@@ -4,10 +4,6 @@ import { DropTarget } from 'react-dnd';
 const dropTarg = {
   canDrop(props, monitor) {
     const item = monitor.getItem();
-    console.log("item: ", item);
-    console.log("State ",this.state);
-    console.log("monitor ",monitor);
-    console.log("props ",props);
     return true;
   },
   drop(props, monitor, component) {
@@ -18,10 +14,7 @@ const dropTarg = {
     }
 
     // Obtain the dragged item
-    console.log("props: ", props);
     const item = monitor.getItem();
-    console.log("item: ", item);
-    console.log("Component: ", component);
 
     props.makeNewTrain(item.comp);
 

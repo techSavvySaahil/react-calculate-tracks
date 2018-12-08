@@ -49,11 +49,8 @@ class App extends Component {
       }
     };
     this.updateTrain = (item, component)=> {
-      console.log("that ",that);
       let props = component.props;
       let state = component.state;
-      console.log("props ",props);
-      console.log("this props ",this.props);
       let index = props.index;
       let arr = that.state.trainArr;
       arr[index][item]++;
@@ -109,9 +106,7 @@ class App extends Component {
           maxTracks = tracks;
         }
       });
-      console.log(maxTracks);
       this.setState({maxTracks:maxTracks});
-      return maxTracks;
     }
   }
   render() {

@@ -4,7 +4,6 @@ import {DragSource} from 'react-dnd';
 
 const cardSource = {
   beginDrag(props, monitor, component) {
-  	console.log("dragging carriage");
     // Return the data describing the dragged item
     const item = { comp: "carriage" };
     return item;

@@ -6,10 +6,6 @@ import loco from './img/loco.jpg';
 const dropTarg = {
   canDrop(props, monitor) {
   	const item = monitor.getItem();
-    console.log("item: ", item);
-    console.log("State ",this.state);
-    console.log("monitor ",monitor);
-    console.log("props ",props);
     let check = props.checkDrop(props, item);
     return check;
   },
@@ -21,10 +17,7 @@ const dropTarg = {
     }
 
     // Obtain the dragged item
-    console.log("props: ", props);
     const item = monitor.getItem();
-    console.log("item: ", item);
-    console.log("Component: ", component);
     if(item.comp === "loco") {
     	props.updateTrain("loco", component);
     }

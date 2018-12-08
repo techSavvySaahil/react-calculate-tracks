@@ -4,8 +4,6 @@ import {DragSource} from 'react-dnd';
 
 const compSource = {
   beginDrag(props, monitor, component) {
-  	console.log("dragging loco");
-  	console.log(props);
     // Return the data describing the dragged item
     const item = { comp: "loco" };
     return item;
@@ -25,7 +23,6 @@ function collect(connect, monitor) {
 class Loco extends React.Component{
 	render() {
 		const { isDragging, connectDragSource } = this.props;
-		console.log(this.props);
 		return connectDragSource(<img id="loco" src={loco} />);
 	}
 }
