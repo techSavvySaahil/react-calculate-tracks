@@ -1,0 +1,135 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, rgb(11, 102, 169), rgb(6, 30, 45), rgb(6, 30, 45), rgb(11, 102, 169));
+  color:white;
+}
+
+.App {
+  /*text-align: center;*/
+  padding-top:2%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  width:40px;
+  height:40px;
+}
+
+.drop-area {
+  height: 50px;
+  border: 2px dotted;
+  text-align: center;
+  margin-bottom: 3%;
+  line-height: 50px;
+}
+
+.new-comp {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  padding: 3% 0;
+  margin-left:1%;
+}
+
+.new-comp img {
+  border-radius:20px;
+  background-color: white;
+  padding:10px;
+}
+
+.built-train {
+  display: inline-block;
+  padding: 2px 5px 0px;
+  background-color: white;
+  margin: 5px 0 10px;
+}
+
+.train-area {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  padding: 3%;
+  box-sizing: border-box;
+  border: 2px solid lightgray;
+  margin-left:3%;
+}
+
+.timings {
+  display: inline-block;
+  float: right;
+}
+
+.timings input {
+  margin: 5px 10px;
+  padding: 3px;
+}
+
+.train-area button {
+  margin: 25px auto 0;
+  display: block;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background-color: #f38939;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.train-rows {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.app-info {
+  color:white;
+  text-align: center;
+  font-size: 30px;
+  margin:0 auto 3%;
+}
+
+button:focus {
+  outline:0;
+}
+
+.build-info {
+  color: #f38939;
+}
+
+.max-tracks {
+  margin: 20px 32%;
+}
+
+.track-count {
+  background-color: white;
+  padding: 1px 5px;
+  color: #ad7103;
+}
