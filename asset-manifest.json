@@ -1,15 +1,15 @@
 {
-  "main.css": "/calculate-tracks-react/static/css/main.b888e896.chunk.css",
-  "main.js": "/calculate-tracks-react/static/js/main.e345ab15.chunk.js",
-  "main.js.map": "/calculate-tracks-react/static/js/main.e345ab15.chunk.js.map",
-  "static/js/1.47938779.chunk.js": "/calculate-tracks-react/static/js/1.47938779.chunk.js",
-  "static/js/1.47938779.chunk.js.map": "/calculate-tracks-react/static/js/1.47938779.chunk.js.map",
-  "runtime~main.js": "/calculate-tracks-react/static/js/runtime~main.5f5564f8.js",
-  "runtime~main.js.map": "/calculate-tracks-react/static/js/runtime~main.5f5564f8.js.map",
-  "static/css/main.b888e896.chunk.css.map": "/calculate-tracks-react/static/css/main.b888e896.chunk.css.map",
-  "static/media/loco.jpg": "/calculate-tracks-react/static/media/loco.19ca0c2a.jpg",
-  "static/media/carriage.jpg": "/calculate-tracks-react/static/media/carriage.100e52f4.jpg",
-  "index.html": "/calculate-tracks-react/index.html",
-  "precache-manifest.7dec214c9dd0af3095f2a9db18852c8b.js": "/calculate-tracks-react/precache-manifest.7dec214c9dd0af3095f2a9db18852c8b.js",
-  "service-worker.js": "/calculate-tracks-react/service-worker.js"
+  "main.css": "/react-calculate-tracks/static/css/main.acde6313.chunk.css",
+  "main.js": "/react-calculate-tracks/static/js/main.fcbfb6fd.chunk.js",
+  "main.js.map": "/react-calculate-tracks/static/js/main.fcbfb6fd.chunk.js.map",
+  "static/js/1.47938779.chunk.js": "/react-calculate-tracks/static/js/1.47938779.chunk.js",
+  "static/js/1.47938779.chunk.js.map": "/react-calculate-tracks/static/js/1.47938779.chunk.js.map",
+  "runtime~main.js": "/react-calculate-tracks/static/js/runtime~main.d55d03a7.js",
+  "runtime~main.js.map": "/react-calculate-tracks/static/js/runtime~main.d55d03a7.js.map",
+  "static/css/main.acde6313.chunk.css.map": "/react-calculate-tracks/static/css/main.acde6313.chunk.css.map",
+  "static/media/loco.jpg": "/react-calculate-tracks/static/media/loco.19ca0c2a.jpg",
+  "static/media/carriage.jpg": "/react-calculate-tracks/static/media/carriage.100e52f4.jpg",
+  "index.html": "/react-calculate-tracks/index.html",
+  "precache-manifest.5d0ebc7c428080ce171445d891c6bc1b.js": "/react-calculate-tracks/precache-manifest.5d0ebc7c428080ce171445d891c6bc1b.js",
+  "service-worker.js": "/react-calculate-tracks/service-worker.js"
 }

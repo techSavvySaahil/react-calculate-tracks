@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/calculate-tracks-react/precache-manifest.7dec214c9dd0af3095f2a9db18852c8b.js"
+  "/react-calculate-tracks/precache-manifest.5d0ebc7c428080ce171445d891c6bc1b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/calculate-tracks-react/index.html", {
+workbox.routing.registerNavigationRoute("/react-calculate-tracks/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
