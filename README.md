@@ -1,4 +1,3 @@
-This app is created with React JS.
 This is my first project in React JS.
 So, please let me know if you think there could be improvements.
 
