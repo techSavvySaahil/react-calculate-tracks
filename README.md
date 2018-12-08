@@ -1,44 +1,20 @@
+This app is created with React JS.
+This is my first project in React JS.
+So, please let me know if you think there could be improvements.
+
+## Deployed app available at:
+https://techsavvysaahil.github.io/react-calculate-tracks/
+
+You can calculate the number of tracks required for a station.
+
+## Steps to be followed:
+1. Make new trains by dragging and dropping components into the drop area.
+2. Components can also be dragged and dropped onto the trains built.
+3. Make sure each built train has exactly one locomotive and at least one carriage.
+4. The maximum number of locomotive, a train can have, is 2.
+5. Otherwise, the arrival and departure timing input boxes would be disabled.
+6. User needs to fill arrival and departure timings for all the trains built.
+7. Input format for the timings is eg. 9.15, 10.20, 13.40, 16.10 etc.
+8. Clicking on **Calculate tracks** would give the maximun number of tracks required for that sation according to the arrival and departure timings of the trains built.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
